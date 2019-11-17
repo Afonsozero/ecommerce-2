@@ -1,0 +1,19 @@
+{
+    "name": "b-dvulhatka/ecommerce",
+    "authors": [
+        {
+            "name": "Bruno Dvulhatka",
+            "email": "brunodvulhatka@gmail.com.br"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"~6.1",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
